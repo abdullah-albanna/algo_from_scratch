@@ -5,7 +5,7 @@
 **setup**
 
 ```bash
-git clone https://github.com/abdullah-albanna/base64 && cd base64
+git clone https://github.com/abdullah-albanna/algo_from_scratch && cd algo_from_scratch/base64
 ```
 
 ---
