@@ -1,0 +1,9 @@
+[package]
+name = "base64"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", feature = "derive", features = ["derive"] }
+anyhow = "1"
+
