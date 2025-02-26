@@ -254,6 +254,7 @@ fn deserialize_tree(bytes: &[u8]) -> (Node, usize) {
 }
 
 fn main() {
+    println!("{:#?}", 0xC0A80101_u32.to_be_bytes());
     let mut input = Vec::new();
     std::io::stdin().read_to_end(&mut input).unwrap(); // ~800 bytes
     let input = input.as_slice();
